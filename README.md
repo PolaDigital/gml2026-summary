@@ -1,0 +1,2 @@
+- 🇦🇷 Castellano → https://poladigital.github.io/gml2026-summary/gml2026_es.html
+- 🇺🇸 English → https://poladigital.github.io/gml2026-summary/
