@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Marketing Live 2026 — Resumen ejecutivo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue-50: #E6F1FB; --blue-100: #B5D4F4; --blue-600: #185FA5; --blue-800: #0C447C; --blue-900: #042C53;
+    --amber-50: #FAEEDA; --amber-100: #FAC775; --amber-600: #854F0B; --amber-800: #633806; --amber-900: #412402;
+    --teal-50: #E1F5EE; --teal-600: #0F6E56; --teal-800: #085041;
+    --purple-50: #EEEDFE; --purple-600: #534AB7; --purple-800: #3C3489;
+    --coral-50: #FAECE7; --coral-600: #993C1D; --coral-800: #712B13;
+    --green-50: #EAF3DE; --green-600: #3B6D11; --green-800: #27500A;
+    --gray-50: #F1EFE8; --gray-100: #D3D1C7; --gray-400: #888780; --gray-600: #5F5E5A; --gray-800: #2C2C2A;
+    --bg: #ffffff; --bg2: #F8F7F4; --text: #1a1a18; --text2: #5F5E5A; --text3: #888780;
+    --border: rgba(0,0,0,0.09);
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 40px 80px;
+  }
+
+  /* Header */
+  .header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 32px;
+    margin-bottom: 36px;
+  }
+  .header-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .badge {
+    background: var(--blue-600);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+  .meta { font-size: 13px; color: var(--text3); }
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text);
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+  }
+  h1 em { font-style: italic; color: var(--blue-600); }
+  .subtitle { font-size: 15px; color: var(--text2); line-height: 1.6; max-width: 560px; }
+
+  /* Alert */
+  .alert {
+    background: var(--amber-50);
+    border: 1px solid var(--amber-100);
+    border-left: 3px solid var(--amber-600);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .alert-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .alert-body { font-size: 13.5px; color: var(--amber-800); line-height: 1.55; }
+  .alert-body strong { color: var(--amber-900); font-weight: 500; }
+
+  /* Stats row */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .stat {
+    background: var(--bg2);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .stat-n { font-family: 'DM Serif Display', serif; font-size: 30px; color: var(--text); line-height: 1; margin-bottom: 5px; }
+  .stat-l { font-size: 12px; color: var(--text2); line-height: 1.4; }
+
+  /* Sections */
+  .section {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+  }
+  .section-ico {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .ico-blue { background: var(--blue-50); color: var(--blue-600); }
+  .ico-amber { background: var(--amber-50); color: var(--amber-600); }
+  .ico-teal { background: var(--teal-50); color: var(--teal-600); }
+  .ico-purple { background: var(--purple-50); color: var(--purple-600); }
+  .ico-coral { background: var(--coral-50); color: var(--coral-600); }
+  .ico-green { background: var(--green-50); color: var(--green-600); }
+
+  .section-title { font-size: 14px; font-weight: 500; color: var(--text); }
+  .tag-new {
+    margin-left: auto;
+    font-size: 10.5px;
+    font-weight: 500;
+    background: var(--teal-50);
+    color: var(--teal-600);
+    border: 1px solid rgba(15,110,86,0.15);
+    padding: 2px 9px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+  }
+  .section-body { padding: 16px 20px 18px; }
+
+  .item {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 11px;
+    font-size: 13.5px;
+    color: var(--text2);
+    line-height: 1.6;
+  }
+  .item:last-child { margin-bottom: 0; }
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gray-400);
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+  .hl { color: var(--text); font-weight: 500; }
+  .pill {
+    display: inline-block;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 1px 6px;
+    color: var(--text3);
+    margin-left: 3px;
+    vertical-align: middle;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .footer-text { font-size: 12px; color: var(--text3); line-height: 1.5; }
+  .footer-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    color: var(--text3);
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <div class="header">
+    <div class="header-top">
+      <span class="badge">Google Marketing Live</span>
+      <span class="meta">20 de mayo, 2026 · Bay View Campus, Mountain View</span>
+    </div>
+    <h1>Resumen ejecutivo<br><em>GML 2026</em></h1>
+    <p class="subtitle">Todo lo que el equipo necesita saber — del evento y de lo que viene para Google Ads, YouTube, Commerce y Measurement.</p>
+  </div>
+
+  <div class="alert">
+    <span class="alert-icon">⚠️</span>
+    <div class="alert-body"><strong>Acción urgente:</strong> los Dynamic Search Ads (DSA) se migran automáticamente a AI Max en septiembre 2026. Si hay cuentas con DSA activos, hay que planificar la transición ya.</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-n">2.5B</div>
+      <div class="stat-l">usuarios mensuales de AI Overviews</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n">1B+</div>
+      <div class="stat-l">usuarios mensuales de AI Mode</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n">3×</div>
+      <div class="stat-l">más largas las búsquedas en AI Mode</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-blue">✦</div>
+      <span class="section-title">1. Gemini & la nueva base de todo</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span>El mensaje de apertura fue sobre ritmo: <span class="hl">"una década de innovación en el último año"</span>. Gemini Omni Flash, Google Antigravity y Gemini Spark son los nuevos modelos.</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">$180–190B en capex</span> este año — Google presentó esa inversión como su ventaja estructural. Hay un agente de IA para armar campañas directamente; la ejecución se delega cada vez más a Gemini.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-amber">⌕</div>
+      <span class="section-title">2. Search: AI Mode es el nuevo search</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span>El search ya no es solo texto: acepta <span class="hl">imágenes, audio y diálogo</span>. La caja de búsqueda tuvo el rediseño más grande en 25 años.</span></div>
+      <div class="item"><div class="dot"></div><span>Sin <span class="hl">AI Max</span> no aparecés en AI Mode. Los anuncios se generan dinámicamente para responder cada query: <span class="hl">"the best ads must be answers."</span></span></div>
+      <div class="item"><div class="dot"></div><span>Nuevos formatos: <span class="hl">Direct Offers</span> (descuentos y cupones en el momento de intención de compra) y <span class="hl">Business Agent for Leads</span> — el usuario le pregunta al anuncio y recibe respuesta del sitio. Testeando en educación, autos e inmobiliario.</span></div>
+      <div class="item"><div class="dot"></div><span>SEO sigue siendo crítico: contenido específico, reviews reales, testimonios y experiencias. Lo genérico no rankea.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-purple">◈</div>
+      <span class="section-title">3. AI Brief & Ask Advisor — el control vuelve al marketer</span>
+      <span class="tag-new">Novedad clave</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span><span class="hl">AI Brief</span>: escribís en lenguaje natural qué es tu marca, qué tono usar, qué evitar, qué audiencias priorizar — y Gemini lo usa para generar los guidelines creativos de la campaña. Va directo a AI Max y PMax. Brief writing se vuelve una skill central del equipo.</span></div>
+      <div class="item"><div class="dot"></div><span>Permite hacer A/B test no solo de copy, sino de <span class="hl">propuestas de valor completas</span> — gran unlock estratégico.</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">Ask Advisor</span>: interfaz conversacional agentica que unifica Google Ads, Analytics, Google Marketing Platform y Merchant Center. Podés preguntar "¿por qué bajó mi ROAS?" y cruza todas las plataformas para responderte.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-blue">✧</div>
+      <span class="section-title">4. Asset Studio — creative a escala con IA</span>
+      <span class="tag-new">Novedad clave</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span><span class="hl">Asset Studio</span> es el workspace creativo unificado dentro de Google Ads. Genera imágenes y video describiendo lo que necesitás, usando materiales de marca existentes y el AI Brief como input.</span></div>
+      <div class="item"><div class="dot"></div><span>El motor es <span class="hl">Gemini Omni Flash</span>: acepta cualquier input y produce cualquier output — texto a video, imagen a copy, brief a campaña. Incluye 1-Click Creative Testing.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-teal">▶</div>
+      <span class="section-title">5. YouTube: de reach a conversión real</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span><span class="hl">+2B de personas</span> alcanzadas solo con Shorts. El mensaje fue: YouTube da branding Y performance al mismo tiempo. "Stop choosing between brand building and conversions."</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">Ask YouTube</span> llega en verano (EE.UU.): los usuarios pueden hacer preguntas dentro de la plataforma. Gran oportunidad para marcas con contenido educativo o de producto.</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">Demand Gen</span> se expande a Google Maps (ideal para negocios físicos) y a tablets + YouTube Pause Ads con product feeds.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-coral">⊡</div>
+      <span class="section-title">6. Commerce agentico — Google como capa transaccional</span>
+      <span class="tag-new">Novedad clave</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span><span class="hl">Universal Cart</span>: carrito cross-merchant (Wayfair, Nike, etc.) que trackea cambios de precio y alertas de stock. Checkout en Google o en el sitio del merchant. Lanzado en EE.UU. el 19 de mayo.</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">Universal Commerce Protocol (UCP)</span>: estándar abierto co-desarrollado con Shopify, Etsy, Wayfair, Target, Walmart, Amazon, Meta, Microsoft, Salesforce, Stripe, Visa y Mastercard.</span></div>
+      <div class="item"><div class="dot"></div><span>Para retailers: es el cambio más estructural del evento. La IA cierra el gap entre "querer comprar" y "comprar".</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div class="section-ico ico-green">◎</div>
+      <span class="section-title">7. Measurement — de atribución a predicción</span>
+      <span class="tag-new">Novedad clave</span>
+    </div>
+    <div class="section-body">
+      <div class="item"><div class="dot"></div><span><span class="hl">Meridian</span> — la herramienta de Marketing Mix Modeling (MMM) de Google ahora está integrada dentro de Analytics 360. Cambia la medición de mediano plazo.</span></div>
+      <div class="item"><div class="dot"></div><span>El modelo se mueve de atribución retrospectiva a <span class="hl">señales predictivas</span> — "Qualified Future Conversions".</span></div>
+      <div class="item"><div class="dot"></div><span><span class="hl">Google Tag Gateway</span> para mayor control y calidad de datos de primera parte.</span></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="footer-text">Basado en notas internas + fuentes: ppc.land, brainlabsdigital.com, searchengineland.com<br>Google Marketing Live · 20 de mayo de 2026</p>
+    <span class="footer-logo">GML 2026</span>
+  </div>
+
+</div>
+</body>
+</html>
